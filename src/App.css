@@ -143,17 +143,6 @@
 }
 
 /* ── Responsive ── */
-@media (max-width: 480px) {
-  .time-display {
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
-    transform: rotate(180deg) translate3d(1vw, 5vh, 0);
-    width: auto;
-    height: auto;
-    letter-spacing: 0.05em;
-  }
-}
-
 @media (max-width: 600px) {
   .clock {
     padding: 32px 20px;
